@@ -1,0 +1,61 @@
+/* .container .numKeys{
+    background-color: orange;
+    border: 5px solid black;
+}
+
+
+
+
+.row1 > div,.row2 > div,.row3 > div,.row4 > div,.row5 > div{
+    color: red;
+    font-size: 3rem;
+    margin: 10px 20px;
+    border: 1px solid black;
+    padding : 10px 30px;
+}
+
+
+.row1,.row2,.row3,.row4,.row5{
+    display: flex;
+}
+
+.container {
+    display: grid;
+    grid: repeat(2, 60px)
+}
+ */
+
+.container {
+    text-align: center;
+     display: grid;
+     grid-template-columns: 25% 25% 25% 25%;
+
+ }
+
+.container > div {
+    border: 1px solid black;
+    padding: 20px 10px;
+    font-size: 3rem;
+
+} 
+
+.screen {
+    border : 5px solid black;
+    padding: 60px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5rem;
+}
+
+.container > div:hover{
+    background-color: lightgray;
+}
+
+
+h1 {
+    text-align: center;
+}
